@@ -15,10 +15,6 @@ This project is a Python-based assistant that detects user language (English or 
 🔐 Environment-based API configuration
 
 📁 Project Structure
-bash
-Copy
-Edit
-.
 ├── agents/                  # Agent framework
 ├── .env                     # API keys and secrets
 ├── main.py                  # Entry point script (your provided code)
@@ -33,9 +29,6 @@ agents framework (custom or third-party, as assumed)
 An active Gemini API key (Google AI)
 
 🧪 Installation
-bash
-Copy
-Edit
 # Clone the repository
 git clone https://github.com/Tahaimran56/agent_as_tool.git
 cd go to this folder
@@ -51,9 +44,6 @@ Note: You must have the agents package installed or implemented. Add it to requi
 🔐 .env Configuration
 Create a .env file in the root directory and add your Gemini API key:
 
-env
-Copy
-Edit
 GEMINI_API_KEY=your_google_api_key_here
 🧠 How It Works
 The main agent (main_agent) detects the language of the user input.
@@ -69,30 +59,16 @@ Each agent has its own instructions and response style.
 Output is returned from the selected agent and displayed to the user.
 
 ▶️ Running the Script
-bash
-Copy
-Edit
 python main.py
 You'll be prompted:
 
-bash
-Copy
-Edit
 Tell me your language to talk:
 Enter either English or Roman Urdu, and the system will reply appropriately.
 
 📌 Example
 Input:
-
-vbnet
-Copy
-Edit
 Tell me your language to talk: Mera naam Ali hai
 Output:
-
-sql
-Copy
-Edit
 Final Output: The assistant responds in Roman Urdu...
 ✨ Future Improvements
 Add more language agents (e.g., Hindi, Spanish)

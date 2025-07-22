@@ -37,8 +37,8 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/yourusername/multilingual-agent.git
-cd multilingual-agent
+git clone https://github.com/Tahaimran56/agent_as_tool.git
+cd go to this folder
 
 # Create and activate a virtual environment
 python -m venv venv
